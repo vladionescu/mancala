@@ -1,0 +1,31 @@
+# Ignore npm packaging
+/app/.node_modules
+/app/node_modules
+
+# Ignore all logfiles and tempfiles.
+*.log
+/app/tmp
+npm-debug.log
+*.tmproj
+
+# Output folder
+/app/dist
+
+# Numerous always-ignore extensions
+*.diff
+*.patch
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+*.sass-cache
+
+# OS or Editor folders
+.cache
+.project
+.settings
+.tmproj

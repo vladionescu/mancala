@@ -1,0 +1,29 @@
+{
+  "name": "mancala",
+  "version": "0.0.0",
+  "description": "Play Mancala against other opponents on the same server. Multiple concurrent games and chat rooms supported.",
+  "main": "index.js",
+  "engines": {
+    "node": "0.10.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mancala",
+    "game",
+    "multiplayer",
+    "chat",
+    "websockets"
+  ],
+  "author": "Vlad Ionescu <vlad@vladionescu.com> (http://blog.vladionescu.com/)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vladionescu/mancala.git"
+  },
+  "dependencies": {
+    "express": "^4.0.0",
+    "ember": "^1.0.0-pre.2"
+  }
+}
