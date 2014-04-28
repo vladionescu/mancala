@@ -2,6 +2,7 @@
   "name": "mancala",
   "version": "0.0.0",
   "description": "Play Mancala against other opponents on the same server. Multiple concurrent games and chat rooms supported.",
+  "private": "true",
   "main": "index.js",
   "engines": {
     "node": "0.10.x"
