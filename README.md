@@ -11,7 +11,6 @@ mancala
 ├── static
 │   ├── css
 │   ├── img
-│   ├── js
 │   └── lib
 └── ember
 ```
