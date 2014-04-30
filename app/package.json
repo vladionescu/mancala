@@ -1,7 +1,7 @@
 {
-  "name": "mancala",
+  "name": "mancala-server",
   "version": "0.0.0",
-  "description": "Play Mancala against other opponents on the same server. Multiple concurrent games and chat rooms supported.",
+  "description": "The server component to mancala, a multiplayer game written entirely in JS.",
   "private": "true",
   "main": "index.js",
   "engines": {
@@ -25,7 +25,6 @@
   },
   "dependencies": {
     "express": "^4.0.0",
-    "ember": "^1.0.0-pre.2",
     "forever": "^0.11.1"
   }
 }
