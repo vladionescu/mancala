@@ -10,7 +10,7 @@ mancala
 │   └── node_modules
 ├── static
 │   ├── css
-│   ├── img
+│   ├── fonts
 │   └── lib
 └── ember
 ```
