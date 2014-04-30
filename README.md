@@ -13,4 +13,5 @@ mancala
 │   ├── fonts
 │   └── lib
 └── ember
+    └── controllers
 ```
