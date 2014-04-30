@@ -20,6 +20,17 @@ h1#page-title {
 	border-bottom: 1px solid rgba(200,200,200,0.1);
 }
 
+#logout {
+	position: absolute;
+	top: 40px;
+	right: 100px;
+	opacity: 0.75;
+}
+
+#logout:hover {
+	opacity: 1;
+}
+
 .login-container {
 	padding-top: 50px;
 	width: 500px;
