@@ -4,3 +4,29 @@
   2014
   MIT License
 */
+html, body { height: 100%; }
+body {
+	color: #eee;
+	background-color: #337;
+	text-align: center;
+	text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	box-shadow: inset 0 0 100px rgba(0,0,0,0.35);
+	padding: 40px;
+}
+
+h1#page-title {
+	margin-top: 0;
+	padding-bottom: 40px;
+	border-bottom: 1px solid rgba(200,200,200,0.1);
+}
+
+.login-container {
+	padding-top: 50px;
+	width: 500px;
+	margin: 0 auto;
+}
+
+.login-container .input-group {
+	width: 300px;
+	margin: 40px auto;
+}
