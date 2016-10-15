@@ -3,12 +3,13 @@
   "version": "0.0.0",
   "description": "The server component to mancala, a multiplayer game written entirely in JS.",
   "private": "true",
-  "main": "index.js",
+  "main": "app.js",
   "engines": {
     "node": "0.10.x"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "test": "mocha express.test.js"
   },
   "keywords": [
     "mancala",
@@ -24,7 +25,21 @@
     "url": "https://github.com/vladionescu/mancala.git"
   },
   "dependencies": {
-    "express": "^4.0.0",
-    "forever": "^0.11.1"
+    "mongoskin": "~1.4.1",
+    "express": "~4.1.1",
+    "body-parser": "~1.0.2",
+    "compression": "*",
+    "method-override": "*",
+    "morgan": "*",
+    "errorhandler": "*",
+    "forever": "^0.11.1",
+    "socket.io": "^0.9.16",
+    "cors": "^2.3.1",
+    "express.io": "^1.1.13"
+  },
+  "devDependencies": {
+    "expect.js": "~0.3.1",
+    "mocha": "~1.18.2",
+    "superagent": "~0.17.0"
   }
 }
